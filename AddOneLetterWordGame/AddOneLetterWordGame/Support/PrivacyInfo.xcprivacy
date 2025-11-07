@@ -1,0 +1,11 @@
+{
+  "privacy": {
+    "collectsIdentifiers": false,
+    "collectsLocation": false,
+    "collectsUserContent": false,
+    "hasAccessToCamera": false,
+    "hasAccessToMicrophone": false,
+    "hasAccessToPhotoLibrary": false,
+    "dataUse": []
+  }
+}

@@ -1,0 +1,348 @@
+// !$*UTF8*$!
+{
+    archiveVersion = 1;
+    classes = {
+    };
+    objectVersion = 56;
+    objects = {
+        0321D6B542484AFFAE202612 /* PrivacyInfo.xcprivacy */ = { isa = PBXFileReference; lastKnownFileType = text.xml; path = "AddOneLetterWordGame/Support/PrivacyInfo.xcprivacy"; sourceTree = "<group>"; };
+        0493FA5CD5294AF8B8468BBA /* Info.plist */ = { isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AddOneLetterWordGame/Support/Info.plist"; sourceTree = "<group>"; };
+        051CD2C1E56949D1B58F6A5C /* Resources */ = { isa = PBXGroup; children = (
+                BCFF52DF2E8E4261AAA148AD
+                5C37A308356F412FAACDCE13
+                A5FED0EFF34545D181A01B11
+                2A604FF1F85C4E7A8CC486D1
+            ); sourceTree = "<group>"; };
+        084328FD017542CDA1771CC8 /* AddOneLetterWordGameUITests */ = { isa = PBXNativeTarget; buildConfigurationList = 8C01D53EC5AD4ABDB4571392; buildPhases = ( 4C008F16E85045DB95464207, 38C032DBA7614162AD2AE397 ); buildRules = ( ); dependencies = ( DD7B8871B4C1465FB1B3E596 ); name = AddOneLetterWordGameUITests; productName = AddOneLetterWordGameUITests; productReference = 0FDBE9873DFF4ED9838DA66F /* AddOneLetterWordGameUITests.xctest */; productType = "com.apple.product-type.bundle.ui-testing"; };
+        08C896E43EDC428FBDFCB8EE /* Debug */ = { isa = XCBuildConfiguration; buildSettings = { ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon; CODE_SIGN_STYLE = Automatic; CURRENT_PROJECT_VERSION = 1; DEVELOPMENT_TEAM = ""; INFOPLIST_FILE = "AddOneLetterWordGame/Support/Info.plist"; IPHONEOS_DEPLOYMENT_TARGET = 16.0; LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks"; MARKETING_VERSION = 1.0; PRODUCT_BUNDLE_IDENTIFIER = com.example.addoneletter; PRODUCT_NAME = "$(TARGET_NAME)"; SWIFT_VERSION = 5.9; TARGETED_DEVICE_FAMILY = 1; }; name = Debug; };
+        0958712E2F9F4DC6A45FE1EA /* HapticsManager.swift */ = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AddOneLetterWordGame/Support/HapticsManager.swift"; sourceTree = "<group>"; };
+        0A8607BC892741FCBB92727A /* GameEngineModels.swift in Sources */ = { isa = PBXBuildFile; fileRef = 4132A874E77D4E38BC896EEA /* GameEngineModels.swift */; };
+        0AC317C9382046A4AD8DBEA9 /* UserSettings+CoreData.swift */ = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AddOneLetterWordGame/Persistence/Entities/UserSettings+CoreData.swift"; sourceTree = "<group>"; };
+        0B2D9876AD0C4EE3A4805F1B /* GameEngine.swift */ = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AddOneLetterWordGame/Game/Engine/GameEngine.swift"; sourceTree = "<group>"; };
+        0BB99F7663764AB0BE6597EF /* BoardAnalyzer.swift */ = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AddOneLetterWordGame/Game/Engine/BoardAnalyzer.swift"; sourceTree = "<group>"; };
+        0FDBE9873DFF4ED9838DA66F /* AddOneLetterWordGameUITests.xctest */ = { isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AddOneLetterWordGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+        104C28CF8E214164AFC4E800 /* HintService.swift in Sources */ = { isa = PBXBuildFile; fileRef = AB5FE89326F84F389BAFF2AB /* HintService.swift */; };
+        13426DA59B124C898664AEE8 /* place_letter.wav */ = { isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Sounds/place_letter.wav"; sourceTree = "<group>"; };
+        1365250B44734DFEA773E71C /* seed_words_6.txt */ = { isa = PBXFileReference; lastKnownFileType = text; path = "Resources/Dictionaries/seed_words_6.txt"; sourceTree = "<group>"; };
+        14508FE5F06341EF8ED05A4B /* TurnRecord+CoreData.swift */ = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AddOneLetterWordGame/Persistence/Entities/TurnRecord+CoreData.swift"; sourceTree = "<group>"; };
+        154056D4CA55450D9CB5882E /* ToastView.swift */ = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AddOneLetterWordGame/UI/Components/ToastView.swift"; sourceTree = "<group>"; };
+        18B6E93C162D4DAD835B3AED /* turn_change.wav in Resources */ = { isa = PBXBuildFile; fileRef = D8B404C96127419090B0BC2D /* turn_change.wav */; };
+        18F42669B6534F699236B36D /* GameEngineTests.swift in Sources */ = { isa = PBXBuildFile; fileRef = E373B64075EC43F5B42CD989 /* GameEngineTests.swift */; };
+        1A412DA7E65B45C1A866EA82 /* Resources */ = { isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = (
+                FD6EE159F375426E9888CBCF
+            ); runOnlyForDeploymentPostprocessing = 0; };
+        1B9165D0E3C14ABD8D19BD0F /* Models */ = { isa = PBXGroup; children = (
+                5EB8960D66B642F79FAFD825
+                E7EC791B276C4C598C2B6C1E
+                527D783649224132AC021392
+            ); path = Models; sourceTree = "<group>"; };
+        200A9292E5FA4A25AA451F81 /* DictionaryServiceTests.swift in Sources */ = { isa = PBXBuildFile; fileRef = 24456EBF4407451E8F84F124 /* DictionaryServiceTests.swift */; };
+        221106F274794AFF8C681B59 /* AIPlayer.swift in Sources */ = { isa = PBXBuildFile; fileRef = A15B9871D15F48D883CD1F59 /* AIPlayer.swift */; };
+        231A15D5B17647D7AB06000F /* ScoreBarView.swift in Sources */ = { isa = PBXBuildFile; fileRef = BC1CAE493BE440C8AAD6B32A /* ScoreBarView.swift */; };
+        24456EBF4407451E8F84F124 /* DictionaryServiceTests.swift */ = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AddOneLetterWordGameTests/DictionaryServiceTests.swift"; sourceTree = "<group>"; };
+        2599AE3747724FB49442785A /* AddOneLetterWordGameApp.swift in Sources */ = { isa = PBXBuildFile; fileRef = 451AC2FC212748A4A8E2AA08 /* AddOneLetterWordGameApp.swift */; };
+        2A604FF1F85C4E7A8CC486D1 /* Assets.xcassets */ = { isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Resources/Assets.xcassets"; sourceTree = "<group>"; };
+        31AB70D220A749F2B2464B29 /* RulesView.swift in Sources */ = { isa = PBXBuildFile; fileRef = AC691200713A4C73A36B6D1B /* RulesView.swift */; };
+        32C4E63BE8B64955AF81F906 /* seed_words_7.txt */ = { isa = PBXFileReference; lastKnownFileType = text; path = "Resources/Dictionaries/seed_words_7.txt"; sourceTree = "<group>"; };
+        36A06F559B564518850525AF /* PrivacyInfo.xcprivacy in Resources */ = { isa = PBXBuildFile; fileRef = 0321D6B542484AFFAE202612 /* PrivacyInfo.xcprivacy */; };
+        37274EBC8FB244CCB323A14B /* Release */ = { isa = XCBuildConfiguration; buildSettings = { SWIFT_VERSION = 5.9; IPHONEOS_DEPLOYMENT_TARGET = 16.0; }; name = Release; };
+        38C032DBA7614162AD2AE397 /* Frameworks */ = { isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = ( ); runOnlyForDeploymentPostprocessing = 0; };
+        3A6CEFA213CD4AFF849C09F9 /* WordRecord+CoreData.swift in Sources */ = { isa = PBXBuildFile; fileRef = 3B63FCC16AB947F09A887021 /* WordRecord+CoreData.swift */; };
+        3B63FCC16AB947F09A887021 /* WordRecord+CoreData.swift */ = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AddOneLetterWordGame/Persistence/Entities/WordRecord+CoreData.swift"; sourceTree = "<group>"; };
+        3C62CFFF866F4397B8572DED /* PBXTargetDependency */ = { isa = PBXTargetDependency; target = B29C61072DD842D8B0C3B2FE; targetProxy = A82C239425DA4DAFB4933A6C; };
+        3C8D2ABCFD5642759B1B4B6C /* SettingsView.swift in Sources */ = { isa = PBXBuildFile; fileRef = F57709872F5C409EAF4A4C9B /* SettingsView.swift */; };
+        3D90935E45804F64B28B40AF /* AddOneLetterWordGameUITestsLaunchTests.swift in Sources */ = { isa = PBXBuildFile; fileRef = E9C69287DD2B48E19781C957 /* AddOneLetterWordGameUITestsLaunchTests.swift */; };
+        3DAD4DD8DB3A41EB8DED4997 /* AddOneLetterWordGameUITests.swift */ = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AddOneLetterWordGameUITests/AddOneLetterWordGameUITests.swift"; sourceTree = "<group>"; };
+        3E597DDCEA79492EB5D033F2 /* PersistenceTests.swift in Sources */ = { isa = PBXBuildFile; fileRef = A192F14AA698403F8B310031 /* PersistenceTests.swift */; };
+        3E86679C6FF643BFB49110C0 /* Release */ = { isa = XCBuildConfiguration; buildSettings = { CODE_SIGN_STYLE = Automatic; DEVELOPMENT_TEAM = ""; INFOPLIST_FILE = "AddOneLetterWordGameUITests/Info.plist"; IPHONEOS_DEPLOYMENT_TARGET = 16.0; LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks"; PRODUCT_BUNDLE_IDENTIFIER = com.example.addoneletter.uitests; SWIFT_VERSION = 5.9; TEST_TARGET_NAME = AddOneLetterWordGame; }; name = Release; };
+        3EB958B73CC9440F9FEDBF39 /* TileView.swift */ = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AddOneLetterWordGame/UI/Components/TileView.swift"; sourceTree = "<group>"; };
+        403DA59F10164D588F34B0E2 /* MatchRecord+CoreData.swift in Sources */ = { isa = PBXBuildFile; fileRef = FE99286BB1764729B447030A /* MatchRecord+CoreData.swift */; };
+        4132A874E77D4E38BC896EEA /* GameEngineModels.swift */ = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AddOneLetterWordGame/Game/Engine/GameEngineModels.swift"; sourceTree = "<group>"; };
+        41CE46E5B2A64624B69AD836 /* AddOneLetterWordGame.app */ = { isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AddOneLetterWordGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+        41E162EECB2146E39B95FBB7 /* Entities */ = { isa = PBXGroup; children = (
+                FE99286BB1764729B447030A
+                14508FE5F06341EF8ED05A4B
+                3B63FCC16AB947F09A887021
+                0AC317C9382046A4AD8DBEA9
+            ); path = Entities; sourceTree = "<group>"; };
+        44107BCDA5E443C9B67564B7 /* Model.xcdatamodeld in Resources */ = { isa = PBXBuildFile; fileRef = 4D405FAE901B4F3FA99F2655 /* Model.xcdatamodeld */; };
+        441987D76CD04CFF8F4D1CAA /* Debug */ = { isa = XCBuildConfiguration; buildSettings = { SWIFT_VERSION = 5.9; IPHONEOS_DEPLOYMENT_TARGET = 16.0; }; name = Debug; };
+        451AC2FC212748A4A8E2AA08 /* AddOneLetterWordGameApp.swift */ = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AddOneLetterWordGame/App/AddOneLetterWordGameApp.swift"; sourceTree = "<group>"; };
+        459E5A6DCB444533A8AB9B16 /* Sources */ = { isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (
+                2599AE3747724FB49442785A
+                E8288BC778BF4E488A6BB69E
+                85D4E1C67FEA4FF19D7E45B3
+                5F09F1D1A40144E19D1F263C
+                989EE36FEADB4822B88C2047
+                E88A9792294A46428E2783FE
+                F45C704877024CDC92066874
+                DF95007FE1FA46E68C9B01EC
+                DDB31C9432B549889FC33612
+                D1C5EEC7B0E941FEA4904509
+                0A8607BC892741FCBB92727A
+                221106F274794AFF8C681B59
+                F9D499F2849049379923914F
+                104C28CF8E214164AFC4E800
+                A5F1CCF16D3547E4AE30CDE6
+                F6CC118ACEE140619848A07B
+                92C758658A64409EBD0AF275
+                403DA59F10164D588F34B0E2
+                9F20008CB85648F398BCD74D
+                3A6CEFA213CD4AFF849C09F9
+                FD4770884B9D40529C1B65CF
+                C794EE67550F4BF59FD470C6
+                D614BEDF634949CB8271E806
+                A6F029EF2E084709B9CD4330
+                8593551FF6E9419889C7552B
+                69421A3851D64902A8CFF272
+                8D33EB723B33428A9A0A39B6
+                231A15D5B17647D7AB06000F
+                87320EEAA57B425CBD98B0B1
+                961F34C56C7A4CEC9FDE6D28
+                EA8930A4B114477DA54D0680
+                902418525E7B43589E1E7B2D
+                3C8D2ABCFD5642759B1B4B6C
+                31AB70D220A749F2B2464B29
+                CA54B457B1164800BBB53943
+                508FA9B485724201A031B099
+            ); runOnlyForDeploymentPostprocessing = 0; };
+        45BE70CE585F4121928C7220 = { isa = PBXGroup; children = (
+                9AD2C975C06743F29245B139
+                832EF75B874C447A8D74D871
+                051CD2C1E56949D1B58F6A5C
+                D3F9A4B09A4D4492B5E64E00
+                D9EF6A8664364399BAC4B948
+            ); sourceTree = "<group>"; }};
+        4B71E0710B1D47488A35E965 /* english_words.tsv */ = { isa = PBXFileReference; lastKnownFileType = text; path = "Resources/Dictionaries/english_words.tsv"; sourceTree = "<group>"; };
+        4BE5D03504554A8493B29A6E /* Engine */ = { isa = PBXGroup; children = (
+                0BB99F7663764AB0BE6597EF
+                613EB97C73664E7CA07BEF2D
+                C168A94B29EC4FA78A3E6760
+                0B2D9876AD0C4EE3A4805F1B
+                4132A874E77D4E38BC896EEA
+            ); path = Engine; sourceTree = "<group>"; };
+        4C008F16E85045DB95464207 /* Sources */ = { isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (
+                9BD4C01969FF48838590FEEF
+                3D90935E45804F64B28B40AF
+            ); runOnlyForDeploymentPostprocessing = 0; };
+        4D405FAE901B4F3FA99F2655 /* Model.xcdatamodeld */ = { isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodeld; path = "AddOneLetterWordGame/Persistence/Model.xcdatamodeld"; sourceTree = "<group>"; };
+        508FA9B485724201A031B099 /* Character+Extensions.swift in Sources */ = { isa = PBXBuildFile; fileRef = AE549755DA904CB08D1762B7 /* Character+Extensions.swift */; };
+        527D783649224132AC021392 /* GameViewModel.swift */ = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AddOneLetterWordGame/Game/Models/GameViewModel.swift"; sourceTree = "<group>"; };
+        541D5F08FEA54B77A8257BDA /* Preview Assets.xcassets */ = { isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Resources/Preview Content/Preview Assets.xcassets"; sourceTree = "<group>"; };
+        56437186163C467CA19301F2 /* AppEnvironment.swift */ = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AddOneLetterWordGame/App/AppEnvironment.swift"; sourceTree = "<group>"; };
+        5814B7A28F75406E931EE10F /* Resources */ = { isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = (
+                D451D4A3409A4DF4B5BD93A4
+                AE3E60068DD346A0A25E1464
+                A6CFAF01BD974F1DA81FB4CB
+                8FF1D5951D204EF3A11C296E
+                18B6E93C162D4DAD835B3AED
+                734D500BA7A849348A2143D3
+                E55153F5926D4A68B0796566
+                7829FA273B134716ACF8C543
+                9921EB6804DD474E92A83A9B
+                87DE8817CFC24BB094712078
+                64CAB1A0560F4675B195CFAB
+                A5D3C5358DC2469481039025
+                44107BCDA5E443C9B67564B7
+                36A06F559B564518850525AF
+            ); runOnlyForDeploymentPostprocessing = 0; };
+        58629E3B7CE54103A73939A4 /* App */ = { isa = PBXGroup; children = (
+                451AC2FC212748A4A8E2AA08
+                56437186163C467CA19301F2
+                87BB61ADC67847409C84309B
+            ); path = App; sourceTree = "<group>"; };
+        5C37A308356F412FAACDCE13 /* Dictionaries */ = { isa = PBXGroup; children = (
+                4B71E0710B1D47488A35E965
+                EDDF9836BCCE498FB7DCF3CA
+                FABFF89E3B904B5B908196C6
+                1365250B44734DFEA773E71C
+                32C4E63BE8B64955AF81F906
+            ); path = Dictionaries; sourceTree = "<group>"; };
+        5EB8960D66B642F79FAFD825 /* GameModels.swift */ = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AddOneLetterWordGame/Game/Models/GameModels.swift"; sourceTree = "<group>"; };
+        5F09F1D1A40144E19D1F263C /* GameModels.swift in Sources */ = { isa = PBXBuildFile; fileRef = 5EB8960D66B642F79FAFD825 /* GameModels.swift */; };
+        5F8EE5DA96B14B87821D88BA /* Project object */ = { isa = PBXProject; attributes = { LastUpgradeCheck = 1500; OrganizationName = ""; TargetAttributes = { B29C61072DD842D8B0C3B2FE = { DevelopmentTeam = ""; }; C7BA86D9581D4CDBB554A41B = { DevelopmentTeam = ""; }; 084328FD017542CDA1771CC8 = { DevelopmentTeam = ""; }; }; }; buildConfigurationList = 95F80A917DEF4379BBA7D902; compatibilityVersion = "Xcode 14.0"; mainGroup = 45BE70CE585F4121928C7220; productRefGroup = 9AD2C975C06743F29245B139; projectDirPath = ""; projectRoot = ""; targets = ( B29C61072DD842D8B0C3B2FE, C7BA86D9581D4CDBB554A41B, 084328FD017542CDA1771CC8 ); };
+        613EB97C73664E7CA07BEF2D /* BoardTypes.swift */ = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AddOneLetterWordGame/Game/Engine/BoardTypes.swift"; sourceTree = "<group>"; };
+        617BEFBFD29543B89DDB5834 /* AI */ = { isa = PBXGroup; children = (
+                A15B9871D15F48D883CD1F59
+            ); path = AI; sourceTree = "<group>"; };
+        64CAB1A0560F4675B195CFAB /* seed_words_7.txt in Resources */ = { isa = PBXBuildFile; fileRef = 32C4E63BE8B64955AF81F906 /* seed_words_7.txt */; };
+        69421A3851D64902A8CFF272 /* TileView.swift in Sources */ = { isa = PBXBuildFile; fileRef = 3EB958B73CC9440F9FEDBF39 /* TileView.swift */; };
+        6A567017769E438493A8B7B8 /* MatchRepository.swift */ = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AddOneLetterWordGame/Persistence/MatchRepository.swift"; sourceTree = "<group>"; };
+        6A85842F61EF4B91B3EF5E24 /* Tutorial */ = { isa = PBXGroup; children = (
+                EF30EDFF19D840CDA4DD75F6
+            ); path = Tutorial; sourceTree = "<group>"; };
+        6D618F11F0E043458B4902A9 /* Components */ = { isa = PBXGroup; children = (
+                8D3B4DC3FD6D41C4A817AC82
+                E35879D6DD2C4A51B48269BC
+                3EB958B73CC9440F9FEDBF39
+                154056D4CA55450D9CB5882E
+                BC1CAE493BE440C8AAD6B32A
+            ); path = Components; sourceTree = "<group>"; };
+        6DCC95B3A9E9460E9881C4E8 /* Release */ = { isa = XCBuildConfiguration; buildSettings = { CODE_SIGN_STYLE = Automatic; DEVELOPMENT_TEAM = ""; INFOPLIST_FILE = "AddOneLetterWordGameTests/Info.plist"; IPHONEOS_DEPLOYMENT_TARGET = 16.0; LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks"; PRODUCT_BUNDLE_IDENTIFIER = com.example.addoneletter.tests; SWIFT_VERSION = 5.9; }; name = Release; };
+        734D500BA7A849348A2143D3 /* game_end.wav in Resources */ = { isa = PBXBuildFile; fileRef = C5FBEF44EDE34393906D3CC1 /* game_end.wav */; };
+        779683A55C73471AA6700DDC /* Utilities */ = { isa = PBXGroup; children = (
+                AE549755DA904CB08D1762B7
+            ); path = Utilities; sourceTree = "<group>"; };
+        7829FA273B134716ACF8C543 /* seed_words_4.txt in Resources */ = { isa = PBXBuildFile; fileRef = EDDF9836BCCE498FB7DCF3CA /* seed_words_4.txt */; };
+        797307D276214C3D9D4B8BD6 /* Frameworks */ = { isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = ( ); runOnlyForDeploymentPostprocessing = 0; };
+        7BC1E31B09FE4D3088123056 /* PBXContainerItemProxy */ = { isa = PBXContainerItemProxy; containerPortal = 5F8EE5DA96B14B87821D88BA; proxyType = 1; remoteGlobalIDString = B29C61072DD842D8B0C3B2FE; remoteInfo = AddOneLetterWordGame; };
+        7D46246AFCD842639DAAC679 /* Frameworks */ = { isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = ( ); runOnlyForDeploymentPostprocessing = 0; };
+        832EF75B874C447A8D74D871 /* AddOneLetterWordGame */ = { isa = PBXGroup; children = (
+                58629E3B7CE54103A73939A4
+                C66B94DB78C04CD1BA2BE97D
+                C396E33764C145178FAA6EED
+                9A93C0599D8E41CE80041CAA
+                8975476A73924FD3B20B9AA1
+                779683A55C73471AA6700DDC
+            ); sourceTree = "<group>"; };
+        8593551FF6E9419889C7552B /* LetterPickerView.swift in Sources */ = { isa = PBXBuildFile; fileRef = E35879D6DD2C4A51B48269BC /* LetterPickerView.swift */; };
+        85D4E1C67FEA4FF19D7E45B3 /* AppViewModel.swift in Sources */ = { isa = PBXBuildFile; fileRef = 87BB61ADC67847409C84309B /* AppViewModel.swift */; };
+        87320EEAA57B425CBD98B0B1 /* GameView.swift in Sources */ = { isa = PBXBuildFile; fileRef = E0B7FE4BB53248A88ED97AA9 /* GameView.swift */; };
+        87BB61ADC67847409C84309B /* AppViewModel.swift */ = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AddOneLetterWordGame/App/AppViewModel.swift"; sourceTree = "<group>"; };
+        87DE8817CFC24BB094712078 /* seed_words_6.txt in Resources */ = { isa = PBXBuildFile; fileRef = 1365250B44734DFEA773E71C /* seed_words_6.txt */; };
+        8975476A73924FD3B20B9AA1 /* Support */ = { isa = PBXGroup; children = (
+                0493FA5CD5294AF8B8468BBA
+                A15748EC7D5749B9910D33C9
+                0958712E2F9F4DC6A45FE1EA
+                0321D6B542484AFFAE202612
+            ); path = Support; sourceTree = "<group>"; };
+        8BB4805B8F834002BD47FC97 /* DictionaryService.swift */ = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AddOneLetterWordGame/Game/Services/DictionaryService.swift"; sourceTree = "<group>"; };
+        8C01D53EC5AD4ABDB4571392 = { isa = XCConfigurationList; buildConfigurations = ( F89720E84AE349C7B838A998, 3E86679C6FF643BFB49110C0 ); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+        8D33EB723B33428A9A0A39B6 /* ToastView.swift in Sources */ = { isa = PBXBuildFile; fileRef = 154056D4CA55450D9CB5882E /* ToastView.swift */; };
+        8D3B4DC3FD6D41C4A817AC82 /* BoardView.swift */ = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AddOneLetterWordGame/UI/Components/BoardView.swift"; sourceTree = "<group>"; };
+        8FF1D5951D204EF3A11C296E /* invalid_attempt.wav in Resources */ = { isa = PBXBuildFile; fileRef = D9D44BDE5F0B4E419F058325 /* invalid_attempt.wav */; };
+        902418525E7B43589E1E7B2D /* StatsView.swift in Sources */ = { isa = PBXBuildFile; fileRef = E68EF64386DE4B9E9FB91E7F /* StatsView.swift */; };
+        92C758658A64409EBD0AF275 /* SettingsRepository.swift in Sources */ = { isa = PBXBuildFile; fileRef = FA115D117DEC41789DE14E06 /* SettingsRepository.swift */; };
+        93C460ACFAF142B5A27677C7 /* Screens */ = { isa = PBXGroup; children = (
+                E0B7FE4BB53248A88ED97AA9
+                E836F4FB240646948157A83A
+                CE20F0017E74454DAD90FEE0
+                E68EF64386DE4B9E9FB91E7F
+                F57709872F5C409EAF4A4C9B
+                AC691200713A4C73A36B6D1B
+            ); path = Screens; sourceTree = "<group>"; };
+        95F80A917DEF4379BBA7D902 = { isa = XCConfigurationList; buildConfigurations = ( 441987D76CD04CFF8F4D1CAA, 37274EBC8FB244CCB323A14B ); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+        961F34C56C7A4CEC9FDE6D28 /* RootView.swift in Sources */ = { isa = PBXBuildFile; fileRef = E836F4FB240646948157A83A /* RootView.swift */; };
+        989EE36FEADB4822B88C2047 /* GameState.swift in Sources */ = { isa = PBXBuildFile; fileRef = E7EC791B276C4C598C2B6C1E /* GameState.swift */; };
+        9921EB6804DD474E92A83A9B /* seed_words_5.txt in Resources */ = { isa = PBXBuildFile; fileRef = FABFF89E3B904B5B908196C6 /* seed_words_5.txt */; };
+        9A93C0599D8E41CE80041CAA /* Persistence */ = { isa = PBXGroup; children = (
+                41E162EECB2146E39B95FBB7
+                B257E4F19BF94767A1E8FF56
+                6A567017769E438493A8B7B8
+                FA115D117DEC41789DE14E06
+                4D405FAE901B4F3FA99F2655
+            ); path = Persistence; sourceTree = "<group>"; };
+        9AD2C975C06743F29245B139 /* Products */ = { isa = PBXGroup; children = (
+                41CE46E5B2A64624B69AD836 /* AddOneLetterWordGame.app */
+                BD4643BBAC634829BF2082CB /* AddOneLetterWordGameTests.xctest */
+                0FDBE9873DFF4ED9838DA66F /* AddOneLetterWordGameUITests.xctest */
+            ); name = Products; sourceTree = "<group>"; };
+        9BD4C01969FF48838590FEEF /* AddOneLetterWordGameUITests.swift in Sources */ = { isa = PBXBuildFile; fileRef = 3DAD4DD8DB3A41EB8DED4997 /* AddOneLetterWordGameUITests.swift */; };
+        9F20008CB85648F398BCD74D /* TurnRecord+CoreData.swift in Sources */ = { isa = PBXBuildFile; fileRef = 14508FE5F06341EF8ED05A4B /* TurnRecord+CoreData.swift */; };
+        A15748EC7D5749B9910D33C9 /* SoundManager.swift */ = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AddOneLetterWordGame/Support/SoundManager.swift"; sourceTree = "<group>"; };
+        A15B9871D15F48D883CD1F59 /* AIPlayer.swift */ = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AddOneLetterWordGame/Game/AI/AIPlayer.swift"; sourceTree = "<group>"; };
+        A192F14AA698403F8B310031 /* PersistenceTests.swift */ = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AddOneLetterWordGameTests/PersistenceTests.swift"; sourceTree = "<group>"; };
+        A3A4B4474E0E41C6A8AB0C63 /* Services */ = { isa = PBXGroup; children = (
+                8BB4805B8F834002BD47FC97
+                AB5FE89326F84F389BAFF2AB
+            ); path = Services; sourceTree = "<group>"; };
+        A5D3C5358DC2469481039025 /* Preview Assets.xcassets in Resources */ = { isa = PBXBuildFile; fileRef = 541D5F08FEA54B77A8257BDA /* Preview Assets.xcassets */; };
+        A5F1CCF16D3547E4AE30CDE6 /* PersistenceController.swift in Sources */ = { isa = PBXBuildFile; fileRef = B257E4F19BF94767A1E8FF56 /* PersistenceController.swift */; };
+        A5FED0EFF34545D181A01B11 /* Preview Content */ = { isa = PBXGroup; children = (
+                541D5F08FEA54B77A8257BDA
+            ); path = Preview Content; sourceTree = "<group>"; };
+        A6CFAF01BD974F1DA81FB4CB /* confirm_word.wav in Resources */ = { isa = PBXBuildFile; fileRef = F34AED29730A48D8A9CB4130 /* confirm_word.wav */; };
+        A6F029EF2E084709B9CD4330 /* BoardView.swift in Sources */ = { isa = PBXBuildFile; fileRef = 8D3B4DC3FD6D41C4A817AC82 /* BoardView.swift */; };
+        A82C239425DA4DAFB4933A6C /* PBXContainerItemProxy */ = { isa = PBXContainerItemProxy; containerPortal = 5F8EE5DA96B14B87821D88BA; proxyType = 1; remoteGlobalIDString = B29C61072DD842D8B0C3B2FE; remoteInfo = AddOneLetterWordGame; };
+        AA38134EA41F423EA2A8EB89 /* Info.plist */ = { isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AddOneLetterWordGameTests/Info.plist"; sourceTree = "<group>"; };
+        AB5FE89326F84F389BAFF2AB /* HintService.swift */ = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AddOneLetterWordGame/Game/Services/HintService.swift"; sourceTree = "<group>"; };
+        AC691200713A4C73A36B6D1B /* RulesView.swift */ = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AddOneLetterWordGame/UI/Screens/RulesView.swift"; sourceTree = "<group>"; };
+        AE3E60068DD346A0A25E1464 /* place_letter.wav in Resources */ = { isa = PBXBuildFile; fileRef = 13426DA59B124C898664AEE8 /* place_letter.wav */; };
+        AE549755DA904CB08D1762B7 /* Character+Extensions.swift */ = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AddOneLetterWordGame/Utilities/Character+Extensions.swift"; sourceTree = "<group>"; };
+        B257E4F19BF94767A1E8FF56 /* PersistenceController.swift */ = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AddOneLetterWordGame/Persistence/PersistenceController.swift"; sourceTree = "<group>"; };
+        B29C61072DD842D8B0C3B2FE /* AddOneLetterWordGame */ = { isa = PBXNativeTarget; buildConfigurationList = DF469DA7B69E4409B71D6D4A; buildPhases = ( 459E5A6DCB444533A8AB9B16, 797307D276214C3D9D4B8BD6, 5814B7A28F75406E931EE10F ); buildRules = ( ); dependencies = ( ); name = AddOneLetterWordGame; productName = AddOneLetterWordGame; productReference = 41CE46E5B2A64624B69AD836 /* AddOneLetterWordGame.app */; productType = "com.apple.product-type.application"; };
+        B5071112D2BF49BBAA68F410 /* AITests.swift */ = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AddOneLetterWordGameTests/AITests.swift"; sourceTree = "<group>"; };
+        BC1CAE493BE440C8AAD6B32A /* ScoreBarView.swift */ = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AddOneLetterWordGame/UI/Components/ScoreBarView.swift"; sourceTree = "<group>"; };
+        BCFF52DF2E8E4261AAA148AD /* Sounds */ = { isa = PBXGroup; children = (
+                13426DA59B124C898664AEE8
+                F34AED29730A48D8A9CB4130
+                D9D44BDE5F0B4E419F058325
+                D8B404C96127419090B0BC2D
+                C5FBEF44EDE34393906D3CC1
+            ); path = Sounds; sourceTree = "<group>"; };
+        BD4643BBAC634829BF2082CB /* AddOneLetterWordGameTests.xctest */ = { isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AddOneLetterWordGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+        C168A94B29EC4FA78A3E6760 /* GameBoard.swift */ = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AddOneLetterWordGame/Game/Engine/GameBoard.swift"; sourceTree = "<group>"; };
+        C396E33764C145178FAA6EED /* UI */ = { isa = PBXGroup; children = (
+                6D618F11F0E043458B4902A9
+                93C460ACFAF142B5A27677C7
+                6A85842F61EF4B91B3EF5E24
+            ); path = UI; sourceTree = "<group>"; };
+        C5628973B83C4BBA929EC600 = { isa = XCConfigurationList; buildConfigurations = ( E69D367C88EE4D6F94C04AA6, 6DCC95B3A9E9460E9881C4E8 ); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+        C5FBEF44EDE34393906D3CC1 /* game_end.wav */ = { isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Sounds/game_end.wav"; sourceTree = "<group>"; };
+        C66B94DB78C04CD1BA2BE97D /* Game */ = { isa = PBXGroup; children = (
+                4BE5D03504554A8493B29A6E
+                1B9165D0E3C14ABD8D19BD0F
+                617BEFBFD29543B89DDB5834
+                A3A4B4474E0E41C6A8AB0C63
+            ); path = Game; sourceTree = "<group>"; };
+        C794EE67550F4BF59FD470C6 /* SoundManager.swift in Sources */ = { isa = PBXBuildFile; fileRef = A15748EC7D5749B9910D33C9 /* SoundManager.swift */; };
+        C7BA86D9581D4CDBB554A41B /* AddOneLetterWordGameTests */ = { isa = PBXNativeTarget; buildConfigurationList = C5628973B83C4BBA929EC600; buildPhases = ( D1F30FB8EC164B3FA73DC061, 7D46246AFCD842639DAAC679, 1A412DA7E65B45C1A866EA82 ); buildRules = ( ); dependencies = ( 3C62CFFF866F4397B8572DED ); name = AddOneLetterWordGameTests; productName = AddOneLetterWordGameTests; productReference = BD4643BBAC634829BF2082CB /* AddOneLetterWordGameTests.xctest */; productType = "com.apple.product-type.bundle.unit-test"; };
+        CA3368C68E0449B099CC9A2B /* Info.plist */ = { isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AddOneLetterWordGameUITests/Info.plist"; sourceTree = "<group>"; };
+        CA54B457B1164800BBB53943 /* TutorialView.swift in Sources */ = { isa = PBXBuildFile; fileRef = EF30EDFF19D840CDA4DD75F6 /* TutorialView.swift */; };
+        CE20F0017E74454DAD90FEE0 /* HistoryView.swift */ = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AddOneLetterWordGame/UI/Screens/HistoryView.swift"; sourceTree = "<group>"; };
+        D192E9539CD44E4783B3D782 /* Release */ = { isa = XCBuildConfiguration; buildSettings = { ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon; CODE_SIGN_STYLE = Automatic; CURRENT_PROJECT_VERSION = 1; DEVELOPMENT_TEAM = ""; INFOPLIST_FILE = "AddOneLetterWordGame/Support/Info.plist"; IPHONEOS_DEPLOYMENT_TARGET = 16.0; LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks"; MARKETING_VERSION = 1.0; PRODUCT_BUNDLE_IDENTIFIER = com.example.addoneletter; PRODUCT_NAME = "$(TARGET_NAME)"; SWIFT_VERSION = 5.9; TARGETED_DEVICE_FAMILY = 1; }; name = Release; };
+        D1C5EEC7B0E941FEA4904509 /* GameEngine.swift in Sources */ = { isa = PBXBuildFile; fileRef = 0B2D9876AD0C4EE3A4805F1B /* GameEngine.swift */; };
+        D1F30FB8EC164B3FA73DC061 /* Sources */ = { isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (
+                18F42669B6534F699236B36D
+                200A9292E5FA4A25AA451F81
+                DEE1AB424A3F4AF0BDE23E62
+                3E597DDCEA79492EB5D033F2
+            ); runOnlyForDeploymentPostprocessing = 0; };
+        D3F9A4B09A4D4492B5E64E00 /* AddOneLetterWordGameTests */ = { isa = PBXGroup; children = (
+                AA38134EA41F423EA2A8EB89
+                E373B64075EC43F5B42CD989
+                24456EBF4407451E8F84F124
+                B5071112D2BF49BBAA68F410
+                A192F14AA698403F8B310031
+            ); sourceTree = "<group>"; };
+        D451D4A3409A4DF4B5BD93A4 /* Assets.xcassets in Resources */ = { isa = PBXBuildFile; fileRef = 2A604FF1F85C4E7A8CC486D1 /* Assets.xcassets */; };
+        D614BEDF634949CB8271E806 /* HapticsManager.swift in Sources */ = { isa = PBXBuildFile; fileRef = 0958712E2F9F4DC6A45FE1EA /* HapticsManager.swift */; };
+        D8B404C96127419090B0BC2D /* turn_change.wav */ = { isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Sounds/turn_change.wav"; sourceTree = "<group>"; };
+        D9D44BDE5F0B4E419F058325 /* invalid_attempt.wav */ = { isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Sounds/invalid_attempt.wav"; sourceTree = "<group>"; };
+        D9EF6A8664364399BAC4B948 /* AddOneLetterWordGameUITests */ = { isa = PBXGroup; children = (
+                CA3368C68E0449B099CC9A2B
+                3DAD4DD8DB3A41EB8DED4997
+                E9C69287DD2B48E19781C957
+            ); sourceTree = "<group>"; };
+        DD7B8871B4C1465FB1B3E596 /* PBXTargetDependency */ = { isa = PBXTargetDependency; target = B29C61072DD842D8B0C3B2FE; targetProxy = 7BC1E31B09FE4D3088123056; };
+        DDB31C9432B549889FC33612 /* GameBoard.swift in Sources */ = { isa = PBXBuildFile; fileRef = C168A94B29EC4FA78A3E6760 /* GameBoard.swift */; };
+        DEE1AB424A3F4AF0BDE23E62 /* AITests.swift in Sources */ = { isa = PBXBuildFile; fileRef = B5071112D2BF49BBAA68F410 /* AITests.swift */; };
+        DF469DA7B69E4409B71D6D4A = { isa = XCConfigurationList; buildConfigurations = ( 08C896E43EDC428FBDFCB8EE, D192E9539CD44E4783B3D782 ); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+        DF95007FE1FA46E68C9B01EC /* BoardTypes.swift in Sources */ = { isa = PBXBuildFile; fileRef = 613EB97C73664E7CA07BEF2D /* BoardTypes.swift */; };
+        E0B7FE4BB53248A88ED97AA9 /* GameView.swift */ = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AddOneLetterWordGame/UI/Screens/GameView.swift"; sourceTree = "<group>"; };
+        E35879D6DD2C4A51B48269BC /* LetterPickerView.swift */ = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AddOneLetterWordGame/UI/Components/LetterPickerView.swift"; sourceTree = "<group>"; };
+        E373B64075EC43F5B42CD989 /* GameEngineTests.swift */ = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AddOneLetterWordGameTests/GameEngineTests.swift"; sourceTree = "<group>"; };
+        E55153F5926D4A68B0796566 /* english_words.tsv in Resources */ = { isa = PBXBuildFile; fileRef = 4B71E0710B1D47488A35E965 /* english_words.tsv */; };
+        E68EF64386DE4B9E9FB91E7F /* StatsView.swift */ = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AddOneLetterWordGame/UI/Screens/StatsView.swift"; sourceTree = "<group>"; };
+        E69D367C88EE4D6F94C04AA6 /* Debug */ = { isa = XCBuildConfiguration; buildSettings = { CODE_SIGN_STYLE = Automatic; DEVELOPMENT_TEAM = ""; INFOPLIST_FILE = "AddOneLetterWordGameTests/Info.plist"; IPHONEOS_DEPLOYMENT_TARGET = 16.0; LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks"; PRODUCT_BUNDLE_IDENTIFIER = com.example.addoneletter.tests; SWIFT_VERSION = 5.9; }; name = Debug; };
+        E7EC791B276C4C598C2B6C1E /* GameState.swift */ = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AddOneLetterWordGame/Game/Models/GameState.swift"; sourceTree = "<group>"; };
+        E8288BC778BF4E488A6BB69E /* AppEnvironment.swift in Sources */ = { isa = PBXBuildFile; fileRef = 56437186163C467CA19301F2 /* AppEnvironment.swift */; };
+        E836F4FB240646948157A83A /* RootView.swift */ = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AddOneLetterWordGame/UI/Screens/RootView.swift"; sourceTree = "<group>"; };
+        E88A9792294A46428E2783FE /* GameViewModel.swift in Sources */ = { isa = PBXBuildFile; fileRef = 527D783649224132AC021392 /* GameViewModel.swift */; };
+        E9C69287DD2B48E19781C957 /* AddOneLetterWordGameUITestsLaunchTests.swift */ = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AddOneLetterWordGameUITests/AddOneLetterWordGameUITestsLaunchTests.swift"; sourceTree = "<group>"; };
+        EA8930A4B114477DA54D0680 /* HistoryView.swift in Sources */ = { isa = PBXBuildFile; fileRef = CE20F0017E74454DAD90FEE0 /* HistoryView.swift */; };
+        EDDF9836BCCE498FB7DCF3CA /* seed_words_4.txt */ = { isa = PBXFileReference; lastKnownFileType = text; path = "Resources/Dictionaries/seed_words_4.txt"; sourceTree = "<group>"; };
+        EF30EDFF19D840CDA4DD75F6 /* TutorialView.swift */ = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AddOneLetterWordGame/UI/Tutorial/TutorialView.swift"; sourceTree = "<group>"; };
+        F34AED29730A48D8A9CB4130 /* confirm_word.wav */ = { isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Resources/Sounds/confirm_word.wav"; sourceTree = "<group>"; };
+        F45C704877024CDC92066874 /* BoardAnalyzer.swift in Sources */ = { isa = PBXBuildFile; fileRef = 0BB99F7663764AB0BE6597EF /* BoardAnalyzer.swift */; };
+        F57709872F5C409EAF4A4C9B /* SettingsView.swift */ = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AddOneLetterWordGame/UI/Screens/SettingsView.swift"; sourceTree = "<group>"; };
+        F6CC118ACEE140619848A07B /* MatchRepository.swift in Sources */ = { isa = PBXBuildFile; fileRef = 6A567017769E438493A8B7B8 /* MatchRepository.swift */; };
+        F89720E84AE349C7B838A998 /* Debug */ = { isa = XCBuildConfiguration; buildSettings = { CODE_SIGN_STYLE = Automatic; DEVELOPMENT_TEAM = ""; INFOPLIST_FILE = "AddOneLetterWordGameUITests/Info.plist"; IPHONEOS_DEPLOYMENT_TARGET = 16.0; LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks"; PRODUCT_BUNDLE_IDENTIFIER = com.example.addoneletter.uitests; SWIFT_VERSION = 5.9; TEST_TARGET_NAME = AddOneLetterWordGame; }; name = Debug; };
+        F9D499F2849049379923914F /* DictionaryService.swift in Sources */ = { isa = PBXBuildFile; fileRef = 8BB4805B8F834002BD47FC97 /* DictionaryService.swift */; };
+        FA115D117DEC41789DE14E06 /* SettingsRepository.swift */ = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AddOneLetterWordGame/Persistence/SettingsRepository.swift"; sourceTree = "<group>"; };
+        FABFF89E3B904B5B908196C6 /* seed_words_5.txt */ = { isa = PBXFileReference; lastKnownFileType = text; path = "Resources/Dictionaries/seed_words_5.txt"; sourceTree = "<group>"; };
+        FD4770884B9D40529C1B65CF /* UserSettings+CoreData.swift in Sources */ = { isa = PBXBuildFile; fileRef = 0AC317C9382046A4AD8DBEA9 /* UserSettings+CoreData.swift */; };
+        FD6EE159F375426E9888CBCF /* english_words.tsv in Resources */ = { isa = PBXBuildFile; fileRef = 4B71E0710B1D47488A35E965 /* english_words.tsv */; };
+        FE99286BB1764729B447030A /* MatchRecord+CoreData.swift */ = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AddOneLetterWordGame/Persistence/Entities/MatchRecord+CoreData.swift"; sourceTree = "<group>"; };    };
+    rootObject = 5F8EE5DA96B14B87821D88BA /* Project object */;
+}
