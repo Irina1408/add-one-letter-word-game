@@ -1,0 +1,55 @@
+name: AddOneLetterWordGame
+options:
+  minimumXcodeGenVersion: 2.38.0
+  deploymentTarget:
+    iOS: "16.0"
+
+configs:
+  Debug: debug
+  Release: release
+
+settings:
+  BASE_SDK: iphoneos
+  SWIFT_VERSION: 5.9
+  IPHONEOS_DEPLOYMENT_TARGET: 16.0
+
+targets:
+  AddOneLetterWordGame:
+    type: application
+    platform: iOS
+    sources:
+      - path: AddOneLetterWordGame/App
+      - path: AddOneLetterWordGame/Game
+      - path: AddOneLetterWordGame/Persistence
+      - path: AddOneLetterWordGame/Support
+      - path: AddOneLetterWordGame/UI
+      - path: AddOneLetterWordGame/Utilities
+      - path: Resources
+    resources:
+      - path: Resources/Assets.xcassets
+      - path: Resources/Dictionaries
+      - path: Resources/Preview Content
+      - path: Resources/Sounds
+      - path: AddOneLetterWordGame/Persistence/Model.xcdatamodeld
+    settings:
+      PRODUCT_BUNDLE_IDENTIFIER: com.iryna.addoneletterwordgame
+      TARGETED_DEVICE_FAMILY: 1
+      ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+      INFOPLIST_FILE: AddOneLetterWordGame/Support/Info.plist
+
+  AddOneLetterWordGameTests:
+    type: bundle.unit-test
+    platform: iOS
+    sources:
+      - path: AddOneLetterWordGameTests
+    dependencies:
+      - target: AddOneLetterWordGame
+
+  AddOneLetterWordGameUITests:
+    type: bundle.ui-testing
+    platform: iOS
+    sources:
+      - path: AddOneLetterWordGameUITests
+    dependencies:
+      - target: AddOneLetterWordGame
+
